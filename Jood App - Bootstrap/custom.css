@@ -1,0 +1,419 @@
+body {
+    font-family: 'Roboto', sans-serif!important;
+    letter-spacing: 0.03em!important;
+}
+
+.dark-text {
+    color: #333333;
+}
+
+.lighter-dark-text {
+    color: #8A8A8A;
+}
+
+.h3-header {
+    font-weight: 800;
+    font-size: 2.2em;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+#header-heading {
+    font-size: 2.6em;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    padding-bottom: 0.25em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+.header-bg {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#features-bg {
+    background-image: url("/images/features-bg-png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#application-bg {
+    background-image: url("/images/application-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#download-bg {
+    background-image: url("/images/download-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#triple-iphone-div {
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+
+#footer-bg {
+    background-image: url("/images/footer-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.statistics {
+    color: #3096FE;
+    font-size: 2.2em;
+}
+
+.statistics-p {
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+#download-now-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+#download-now-btn:hover {
+    background-color: #fff;
+    color: #333!important;
+}
+
+#get-the-app-btn {
+    background-color: #FFBB00;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+#get-the-app-btn:hover {
+    background-color: #e0a500;
+    border: none;
+}
+
+#watch-video-btn {
+    font-weight: 500;
+}
+
+#watch-video-btn:hover {
+    color: #ebebeb!important;
+    
+}
+
+#form-button {
+    background-color: #3096FE;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+#form-button:hover {
+    background-color: #2b84dd;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 3px solid transparent
+}
+
+.nav-link.active {
+    color: #FFBB00;
+}
+
+.nav-link.active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #FFBB00;
+    width: 25px;
+    margin-top: 3px;
+}
+
+.nav-link:hover {
+    color: #FFBB00;
+}
+
+#about-us-badge {
+    background-color: #ffbb003b;
+    color: #ffbb00;
+    font-weight: 400;
+}
+
+#features-badge {
+    background-color: #ffbb003b;
+    color: #ffbb00;
+    font-weight: 400;
+}
+
+ul li {
+    padding: 0.4em;
+}
+
+input.form-control, textarea.form-control {
+    background-color: #FBFBFB !important;
+    border:none;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+textarea {
+    resize: none!important;
+ }
+
+input.form-control::placeholder, textarea.form-control::placeholder {
+    color: #CCCCCC !important;
+}
+
+#contact-us-header {
+    font-size: 2em;
+}
+
+.app-headers {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.info-p {
+    line-height: 2em;
+}
+
+/* Iphone Screens Carousel OWL2 */
+#owl2 .owl-item.center {
+    background-image: url(/images/iPhone\ X\ -\ Frame.png);
+    background-size: contain;
+    opacity: unset;
+}
+
+#owl2 .owl-item > div {
+    margin: 6% 6%;
+    padding: 10px;
+    transition: margin 0.4s ease;
+}
+
+#owl2 .owl-item.center > div {
+    margin: 0;
+}
+
+#owl2 .owl-item + div {
+    opacity: 50%;
+}
+/* MEDIA QUERIES START */
+/* MEDIA QUERIES START */
+/* MEDIA QUERIES START */
+/* MEDIA QUERIES START */
+/* MEDIA QUERIES START */
+/* MEDIA QUERIES START */
+
+/* MAX-WIDTH QUERIES START */
+@media (max-width: 575.98px) {
+    body {
+        text-align: center!important;
+    }
+
+    .header-bg {
+        background-size: 400% 400%;
+    }
+
+    #features-bg {
+        background-image: url("/images/features-bg.png");
+    }
+
+    #header-img {
+        display: none;
+    }
+
+    #get-the-app-btn {
+        display: none;
+    }
+
+    #mobile-circles-img {
+        display: none;
+    }
+
+    #double-mobiles-img {
+        display: none;
+    }
+
+    #triple-iphone {
+        display: none;
+    }
+
+    .store-icons {
+        justify-content: center;
+    }
+
+    #download-heading {
+        font-size: 2.2em!important;
+    }
+ }
+
+ #features-text-div {
+     margin: 0;
+ }
+
+ @media (max-width: 767.98px) { 
+    #double-mobiles-img {
+        display: none;
+    }
+
+    .header-bg {
+        background-size: 400% 400%;
+    }
+
+    #header-text {
+        text-align: center;
+        padding: 1.5em;
+    }
+
+    #get-the-app-btn {
+        display: none;
+    }
+
+    #ec-logo {
+        display: none!important;
+    }
+  }
+
+  #download-heading {
+    font-size: 2.5em;
+}
+
+  @media (max-width: 991.98px) { 
+
+    #double-mobiles-img {
+        display: none;
+    }
+
+    #get-the-app-btn {
+        display: none;
+    }
+
+    .header-bg {
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+        background-size: 400% 400%;
+   }
+
+   #triple-iphone-div {
+    display: none;
+   }
+
+   #download-text {
+       text-align: center;
+   }
+
+   #download-apps {
+       justify-content: center;
+       padding-right: 0;
+   }
+
+.nav-link.active::after {
+    border: none;
+}
+
+.nav-link {
+    padding: 0!important;
+}
+
+#navbarSupportedContent {
+    margin: 0!important;
+}
+
+#footer-links li a {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+#ec-logo {
+    display: none!important;
+}
+    
+  }
+
+  /* MAX-WIDTH END */
+
+  /* MIN-WIDTH START */
+
+  @media (min-width: 576px) {
+    #features-bg {
+        background-image: url("/images/features-bg.png");
+    }
+  }
+
+  @media (min-width: 767.98px) {
+    #download-heading {
+        font-size: 2.5em;
+    }
+
+  }
+
+ @media (min-width: 992px) { 
+    .header-bg {
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 800px;
+   }
+
+   #header-text {
+       margin-left: 100px!important;
+   }
+
+   .h2-heading {
+       font-size: 2.5em;
+       line-height: 1.5;
+       padding-bottom: 0.25em;
+       margin-top: -100px;
+       font-family: 'Poppins', sans-serif;
+   }
+
+   .heading-p {
+       font-size: 0.9em!important;
+       font-family: 'Poppins', sans-serif;
+   }
+
+   #app-store-bg {
+       margin: 100px;
+   }
+  }
+
+  @media (min-width: 1200px) { 
+      #get-the-app-btn {
+          padding-left: 1.5em;
+          padding-right: 1.5em;
+          padding-top: 0.5em;
+          padding-bottom: 0.5em;
+      }
+
+}
+
+  @media (min-width: 1600px) { 
+    .header-bg {
+        height: 100%;
+    }
+
+    #ec-logo {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+
+   @media (min-width: 1800px) { }
+
+   @media (min-width: 2000px) {
+    .header-bg {
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+   }
+}
+   /* MIN-WIDTH END */
